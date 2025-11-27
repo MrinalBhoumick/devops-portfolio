@@ -13,10 +13,10 @@
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.5;
+            line-height: 1.4;
             color: #000000;
             background: #ffffff;
-            font-size: 11pt;
+            font-size: 10.5pt;
         }
 
         .resume-container {
@@ -45,7 +45,7 @@
 
         /* Section */
         .section {
-            margin-bottom: 18px;
+            margin-bottom: 14px;
         }
 
         .section-title {
@@ -80,21 +80,22 @@
 
         ul {
             margin-left: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         li {
-            margin-bottom: 4px;
+            margin-bottom: 3px;
             font-size: 10pt;
+            line-height: 1.3;
         }
 
         .skills-section {
             font-size: 10pt;
-            line-height: 1.6;
+            line-height: 1.4;
         }
 
         .skill-category {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .skill-category strong {
@@ -160,10 +161,9 @@
         <div class="section">
             <h2 class="section-title">Professional Summary</h2>
             <p>
-                DevOps Engineer with 1+ years of experience specializing in AWS cloud infrastructure, serverless architecture, and AI/ML automation. 
-                Proven track record of building enterprise-grade automation platforms processing 10,000+ daily operations with 70-90% autonomous resolution rate. 
-                Expert in Infrastructure as Code (Pulumi, Terraform), Python automation, Kubernetes, and CI/CD pipelines. 
-                AWS Certified (AI Practitioner, Solutions Architect, Developer) with hands-on experience managing 200+ EC2 instances and 50+ Lambda functions across multi-account environments.
+                DevOps Engineer with 1+ years specializing in AWS cloud infrastructure, Kubernetes, and Infrastructure as Code (Pulumi, Terraform). 
+                Built AI-powered automation platform processing 10,000+ daily operations with 70-90% autonomous resolution. 
+                AWS Certified (AI Practitioner, Solutions Architect, Developer) managing 200+ EC2 instances and 50+ Lambda functions across multi-account environments.
             </p>
         </div>
 
@@ -172,40 +172,16 @@
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-section">
                 <div class="skill-category">
-                    <strong>Cloud Platforms:</strong> Amazon Web Services (AWS), AWS Lambda, EC2, S3, DynamoDB, RDS, API Gateway, EventBridge, CloudWatch, IAM, VPC, Route 53, EKS, AWS Network Firewall, CloudFront CDN, Step Functions, Secrets Manager, Systems Manager
+                    <strong>Cloud & DevOps:</strong> AWS (Lambda, EC2, S3, DynamoDB, RDS, EKS, VPC, CloudWatch), Docker, Kubernetes, Pulumi, Terraform, CloudFormation, Jenkins, GitHub Actions, CI/CD Pipelines
                 </div>
                 <div class="skill-category">
-                    <strong>Infrastructure as Code (IaC):</strong> Pulumi, Terraform, AWS CloudFormation, Infrastructure Automation, Configuration Management, Resource Provisioning
+                    <strong>Programming:</strong> Python, Java, JavaScript, Bash/Shell Scripting, SQL, REST APIs, Microservices
                 </div>
                 <div class="skill-category">
-                    <strong>DevOps & CI/CD:</strong> Docker, Kubernetes (K8s), Amazon EKS, Jenkins, GitHub Actions, GitLab CI/CD, CI/CD Pipelines, Continuous Integration, Continuous Deployment, Automated Testing
+                    <strong>AI/ML & Data:</strong> AWS Bedrock, SageMaker, Comprehend, Apache Kafka, MongoDB, PostgreSQL, Redis, Vector Embeddings
                 </div>
                 <div class="skill-category">
-                    <strong>Programming & Scripting:</strong> Python 3.11, Java, C++, JavaScript, SQL, Bash/Shell Scripting, PowerShell, REST API Development, Microservices Architecture
-                </div>
-                <div class="skill-category">
-                    <strong>AI/ML Technologies:</strong> AWS Bedrock, Amazon SageMaker, AWS Comprehend, AWS Translate, Machine Learning, Natural Language Processing (NLP), Vector Embeddings, AI Automation
-                </div>
-                <div class="skill-category">
-                    <strong>Databases:</strong> Amazon DynamoDB, MongoDB, PostgreSQL, MySQL, Redis, Database Design, Query Optimization, NoSQL, SQL
-                </div>
-                <div class="skill-category">
-                    <strong>Messaging & Streaming:</strong> Apache Kafka, Kafka Streams, Apache Zookeeper, WebSocket, Socket.io, Event-Driven Architecture, Real-Time Data Processing
-                </div>
-                <div class="skill-category">
-                    <strong>Monitoring & Observability:</strong> Amazon CloudWatch, CloudWatch Dashboards, Prometheus, Grafana, Log Aggregation, Performance Monitoring, Alert Management
-                </div>
-                <div class="skill-category">
-                    <strong>Version Control:</strong> Git, GitHub, GitLab, Bitbucket, AWS CodeCommit, Version Control Systems, Code Review, Branch Management
-                </div>
-                <div class="skill-category">
-                    <strong>Networking & Security:</strong> VPC Configuration, Subnets, Route Tables, Security Groups, Network ACLs, AWS Network Firewall, Egress Traffic Control, IAM Policies, Security Best Practices
-                </div>
-                <div class="skill-category">
-                    <strong>Web Technologies:</strong> HTML5, CSS3, React JS, Node.js, Express.js, Vite JS, RESTful APIs, WebSocket, Frontend Development
-                </div>
-                <div class="skill-category">
-                    <strong>Methodologies:</strong> Agile, Scrum, DevOps, Site Reliability Engineering (SRE), Infrastructure as Code, GitOps, Serverless Architecture
+                    <strong>Tools & Practices:</strong> Git, Agile/Scrum, Site Reliability Engineering (SRE), GitOps, Monitoring (Prometheus, Grafana), IAM, Security Best Practices
                 </div>
             </div>
         </div>
@@ -223,13 +199,11 @@
                 <div class="clear"></div>
                 <div class="company-info">Quickplay (Contracted via Workmates Core2Cloud) | Kolkata, India</div>
                 <ul>
-                    <li>Developed and maintained AWS infrastructure automation using Pulumi IaC framework and Python, managing 100+ cloud resources including VPC, EC2, EKS, Lambda, and DynamoDB across multiple production and staging environments</li>
-                    <li>Deployed AWS Network Firewall with custom egress traffic filtering rules and integrated comprehensive CloudWatch Dashboard monitoring for all networking components including VPC, subnets, route tables, security groups, and NAT gateways</li>
-                    <li>Built and optimized Amazon EKS cluster autoscaler infrastructure using Pulumi, implementing horizontal pod autoscaling and cluster autoscaling policies that reduced infrastructure costs by 40% through dynamic resource allocation</li>
-                    <li>Implemented automated CDN header rotation system using AWS Lambda, Step Functions, and EventBridge with 30-minute wait states for CSI driver synchronization in EKS clusters, improving CDN cache hit ratio by 35%</li>
-                    <li>Automated infrastructure provisioning workflows with Python scripts, reducing manual deployment time from 4 hours to 15 minutes (70% reduction) and eliminating 95% of human configuration errors</li>
-                    <li>Created reusable Pulumi modules and component resources for networking, compute, storage, and security infrastructure, accelerating new environment deployment by 60% and ensuring consistency across 5+ AWS accounts</li>
-                    <li>Established infrastructure testing framework using Pulumi automation API and pytest, achieving 85% code coverage and preventing 20+ production incidents through pre-deployment validation</li>
+                    <li>Developed AWS infrastructure automation using Pulumi IaC and Python, managing 100+ cloud resources (VPC, EC2, EKS, Lambda, DynamoDB) across multiple environments</li>
+                    <li>Deployed AWS Network Firewall with custom egress rules and CloudWatch Dashboard monitoring for networking components</li>
+                    <li>Built EKS cluster autoscaler using Pulumi, reducing infrastructure costs by 40% through dynamic resource allocation</li>
+                    <li>Automated CDN header rotation with Lambda and Step Functions, improving cache hit ratio by 35%</li>
+                    <li>Created reusable Pulumi modules accelerating deployment by 60% and reducing manual deployment time by 70%</li>
                 </ul>
             </div>
 
@@ -242,14 +216,12 @@
                 <div class="clear"></div>
                 <div class="company-info">Workmates Core2Cloud | Kolkata, India</div>
                 <ul>
-                    <li>Architected and deployed IntellIOps AI-powered automation platform using AWS Bedrock (Claude AI), processing 10,000+ daily support tickets across 5,000+ virtual machines with 70-90% autonomous resolution rate, reducing mean time to resolution (MTTR) by 85%</li>
-                    <li>Managed multi-account AWS infrastructure spanning 200+ EC2 instances, 50+ Lambda functions, 30+ DynamoDB tables, and 15+ RDS databases, reducing operational costs by 60% through serverless architecture migration and resource optimization</li>
-                    <li>Automated infrastructure deployment using Terraform and CloudFormation templates, implementing GitOps workflows that reduced provisioning time from 4 hours to 15 minutes and enabled 50+ daily deployments with zero downtime</li>
-                    <li>Designed and implemented event-driven microservices architecture using Apache Kafka Streams, processing 50,000+ messages per hour with 99.9% uptime, sub-100ms latency, and automatic failover capabilities</li>
-                    <li>Developed real-time chat application supporting 1,000+ concurrent WebSocket connections using API Gateway, Lambda, and DynamoDB, achieving 99.95% message delivery rate and 50ms average response time</li>
-                    <li>Implemented comprehensive monitoring and alerting system using CloudWatch, tracking 100+ infrastructure and application metrics, reducing incident detection time by 75% and enabling proactive issue resolution</li>
-                    <li>Built CI/CD pipelines using GitHub Actions and AWS CodePipeline, automating build, test, and deployment processes for 20+ microservices with automated rollback capabilities and blue-green deployment strategies</li>
-                    <li>Optimized AWS costs through rightsizing recommendations, reserved instance purchases, and automated resource scheduling, achieving $50,000+ annual savings (30% cost reduction)</li>
+                    <li>Architected IntellIOps AI platform using AWS Bedrock, processing 10,000+ daily tickets across 5,000+ VMs with 70-90% autonomous resolution, reducing MTTR by 85%</li>
+                    <li>Managed multi-account AWS infrastructure (200+ EC2, 50+ Lambda, 30+ DynamoDB), reducing costs by 60% through serverless migration</li>
+                    <li>Automated infrastructure deployment with Terraform/CloudFormation, enabling 50+ daily deployments with zero downtime</li>
+                    <li>Designed event-driven architecture using Kafka Streams, processing 50,000+ messages/hour with 99.9% uptime</li>
+                    <li>Built CI/CD pipelines with GitHub Actions for 20+ microservices with automated rollback and blue-green deployment</li>
+                    <li>Implemented CloudWatch monitoring tracking 100+ metrics, reducing incident detection time by 75%</li>
                 </ul>
             </div>
 
@@ -262,11 +234,10 @@
                 <div class="clear"></div>
                 <div class="company-info">Oasis Infobyte | Remote</div>
                 <ul>
-                    <li>Led cross-functional team of 4 developers, coordinating daily standups, sprint planning, and code reviews, delivering 3 production features 2 weeks ahead of schedule with 100% on-time completion rate</li>
-                    <li>Designed and developed RESTful API backend using Node.js and Express.js, handling 10,000+ requests per day with 99.8% uptime and average response time under 200ms, reducing API latency by 40%</li>
-                    <li>Architected MongoDB database schema supporting 50,000+ records with optimized indexing strategies, compound indexes, and aggregation pipelines, improving query performance by 65% and reducing database costs by 25%</li>
-                    <li>Collaborated with frontend team to integrate React JS components with backend APIs, implementing lazy loading and code splitting that increased page load speed by 35% and improved Lighthouse performance score to 90+</li>
-                    <li>Implemented authentication and authorization system using JWT tokens and bcrypt password hashing, securing 5,000+ user accounts with role-based access control (RBAC)</li>
+                    <li>Led team of 4 developers, delivering 3 production features ahead of schedule with 100% on-time completion</li>
+                    <li>Built RESTful API backend with Node.js handling 10,000+ requests/day with 99.8% uptime, reducing latency by 40%</li>
+                    <li>Designed MongoDB schema for 50,000+ records with optimized indexing, improving query performance by 65%</li>
+                    <li>Integrated React JS frontend with backend APIs, increasing page load speed by 35%</li>
                 </ul>
             </div>
         </div>
@@ -277,46 +248,30 @@
             
             <div>
                 <div class="job-title">
-                    IntellIOps - AI-Powered Intelligent Operations Platform
+                    IntellIOps - AI-Powered Operations Platform
                     <span class="date">2024</span>
                 </div>
                 <div class="clear"></div>
-                <div class="company-info">Technology Stack: Python 3.11, AWS Lambda, Amazon Bedrock (Claude), DynamoDB, API Gateway, EventBridge, CloudWatch, S3, IAM</div>
+                <div class="company-info">Tech: Python, AWS Lambda, Bedrock (Claude), DynamoDB, API Gateway, EventBridge, CloudWatch</div>
                 <ul>
-                    <li>Built intelligent ticket classification and routing system using AWS Bedrock Claude AI with multi-language support via AWS Comprehend and AWS Translate, achieving 92% classification accuracy across 15+ languages</li>
-                    <li>Automated cross-account AWS resource management for 200+ resources including EC2 lifecycle management, security group automation, IAM user provisioning, and CloudWatch alarm processing, reducing manual operations by 80%</li>
-                    <li>Integrated AI-powered escalation framework with SLA monitoring, intelligent team routing, and automated notifications via Microsoft Teams and Zoho Desk API, routing 5,000+ tickets monthly with 98% on-time resolution</li>
-                    <li>Developed ML-based ticket similarity search using vector embeddings and semantic analysis, analyzing 100,000+ historical tickets with 88% relevance accuracy to provide context-aware automated responses</li>
-                    <li>Implemented serverless architecture using AWS Lambda, DynamoDB, and EventBridge, processing 10,000+ daily operations with auto-scaling capabilities and 99.9% availability</li>
+                    <li>Built intelligent ticket classification using AWS Bedrock with multi-language support, achieving 92% accuracy across 15+ languages</li>
+                    <li>Automated cross-account AWS resource management for 200+ resources, reducing manual operations by 80%</li>
+                    <li>Integrated AI escalation framework routing 5,000+ tickets monthly with 98% on-time resolution via Teams and Zoho Desk</li>
+                    <li>Developed ML-based similarity search analyzing 100,000+ historical tickets with 88% relevance accuracy</li>
                 </ul>
             </div>
 
             <div>
                 <div class="job-title">
                     Movix - Movie Recommendation System
-                    <span class="date">November 2022 - December 2022</span>
+                    <span class="date">2022</span>
                 </div>
                 <div class="clear"></div>
-                <div class="company-info">Technology Stack: Python, Machine Learning, K-Nearest Neighbours (KNN), React JS, Vite JS, MongoDB, HTML5, CSS3</div>
+                <div class="company-info">Tech: Python, KNN Algorithm, React JS, MongoDB</div>
                 <ul>
-                    <li>Built movie recommendation engine using K-Nearest Neighbours (KNN) machine learning algorithm, analyzing 10,000+ movies with 85% recommendation accuracy based on user preferences and viewing history</li>
-                    <li>Implemented content-based filtering and genre-based collaborative filtering supporting 20+ genres, increasing user engagement by 45% and average session duration by 30%</li>
-                    <li>Optimized React JS frontend with Vite bundler and lazy loading, achieving 90+ Lighthouse performance score, 2-second initial load time, and 95+ accessibility score</li>
-                    <li>Designed MongoDB database schema with efficient indexing for 50,000+ user ratings and movie metadata, reducing query response time by 60%</li>
-                </ul>
-            </div>
-
-            <div>
-                <div class="job-title">
-                    WebMediaSaver - Automated Web Media Extraction Tool
-                    <span class="date">June 2022 - July 2022</span>
-                </div>
-                <div class="clear"></div>
-                <div class="company-info">Technology Stack: Python, BeautifulSoup, Requests, HTML/CSS, Web Scraping</div>
-                <ul>
-                    <li>Developed automated media extraction tool using Python and BeautifulSoup, processing 500+ web pages and extracting images and videos with 95% success rate</li>
-                    <li>Created organized file storage system with automatic categorization and duplicate detection, reducing manual extraction time by 90%</li>
-                    <li>Implemented error handling and retry logic for robust web scraping, handling network failures and malformed HTML gracefully</li>
+                    <li>Built recommendation engine using KNN algorithm analyzing 10,000+ movies with 85% accuracy</li>
+                    <li>Implemented content-based filtering for 20+ genres, increasing user engagement by 45%</li>
+                    <li>Optimized React frontend achieving 90+ Lighthouse score and 2-second load time</li>
                 </ul>
             </div>
         </div>
@@ -331,9 +286,6 @@
                 </div>
                 <div class="clear"></div>
                 <div class="company-info">Techno India University | Kolkata, West Bengal | CGPA: 8.61/10.0</div>
-                <ul>
-                    <li>Relevant Coursework: Data Structures and Algorithms, Operating Systems, Database Management Systems, Computer Networks, Machine Learning, Artificial Intelligence, Cloud Computing, Software Engineering</li>
-                </ul>
             </div>
         </div>
 
@@ -341,12 +293,11 @@
         <div class="section">
             <h2 class="section-title">Certifications & Achievements</h2>
             <ul>
-                <li><strong>AWS Certified AI Practitioner</strong> (2024) - Amazon Web Services - Credential ID: 17b69022-7323-4f12-87ff-d25f1f2f2568</li>
-                <li><strong>AWS Certified Developer - Associate</strong> (2024) - Amazon Web Services - Credential ID: 46bc187f-a6f3-4023-9427-d054e9315abd</li>
-                <li><strong>AWS Certified Solutions Architect - Associate</strong> (2024) - Amazon Web Services - Expertise in designing distributed systems and applications on AWS platform</li>
-                <li><strong>HashiCorp Certified: Terraform Associate</strong> - HashiCorp - Infrastructure automation and provisioning specialist</li>
-                <li><strong>ACM ICPC Regional Round Qualified</strong> (2023-24) - All India Rank 198 among 10,000+ participants in competitive programming</li>
-                <li><strong>GeeksForGeeks 5-Star Rating</strong> - Solved 200+ algorithmic problems in data structures and algorithms</li>
+                <li><strong>AWS Certified AI Practitioner</strong> (2024) - Credential: 17b69022-7323-4f12-87ff-d25f1f2f2568</li>
+                <li><strong>AWS Certified Developer - Associate</strong> (2024) - Credential: 46bc187f-a6f3-4023-9427-d054e9315abd</li>
+                <li><strong>AWS Certified Solutions Architect - Associate</strong> (2024) - Distributed systems design</li>
+                <li><strong>HashiCorp Certified: Terraform Associate</strong> - Infrastructure automation specialist</li>
+                <li><strong>ACM ICPC Regional Qualified</strong> (2023-24) - AIR 198 among 10,000+ participants</li>
             </ul>
         </div>
     </div>
