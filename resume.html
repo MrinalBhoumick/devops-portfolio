@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrinal Bhoumick - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            padding: 0;
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px 50px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid #000;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Education */
+        .edu-item {
+            margin-bottom: 12px;
+        }
+
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+
+        .edu-title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .edu-date {
+            font-size: 11px;
+            font-style: italic;
+        }
+
+        .edu-subtitle {
+            font-size: 11px;
+            margin-bottom: 2px;
+        }
+
+        .edu-details {
+            font-size: 11px;
+            margin-left: 15px;
+        }
+
+        /* Experience */
+        .exp-item {
+            margin-bottom: 14px;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .exp-title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .exp-date {
+            font-size: 11px;
+            font-style: italic;
+        }
+
+        .exp-company {
+            font-size: 11px;
+            font-style: italic;
+            margin-bottom: 4px;
+        }
+
+        .exp-details {
+            font-size: 11px;
+            margin-left: 15px;
+            list-style-type: disc;
+        }
+
+        .exp-details li {
+            margin-bottom: 3px;
+        }
+
+        /* Projects */
+        .project-item {
+            margin-bottom: 12px;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .project-title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .project-date {
+            font-size: 11px;
+            font-style: italic;
+        }
+
+        .project-tech {
+            font-size: 11px;
+            font-style: italic;
+            margin-bottom: 4px;
+        }
+
+        .project-details {
+            font-size: 11px;
+            margin-left: 15px;
+            list-style-type: disc;
+        }
+
+        .project-details li {
+            margin-bottom: 3px;
+        }
+
+        /* Skills */
+        .skills-row {
+            margin-bottom: 6px;
+            font-size: 11px;
+        }
+
+        .skills-row strong {
+            font-weight: bold;
+            display: inline-block;
+            min-width: 140px;
+        }
+
+        /* Certifications */
+        .cert-list {
+            font-size: 11px;
+            margin-left: 15px;
+            list-style-type: disc;
+        }
+
+        .cert-list li {
+            margin-bottom: 3px;
+        }
+
+        .cert-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .cert-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+            }
+            .resume-container {
+                padding: 20px 30px;
+                max-width: 100%;
+            }
+            .download-btn {
+                display: none;
+            }
+            a {
+                color: #000 !important;
+            }
+        }
+
+        @page {
+            margin: 0.5in;
+        }
+
+        .download-btn {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .download-btn button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+        }
+
+        .download-btn button:hover {
+            background: #0052a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>MRINAL BHOUMICK</h1>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:mrinalbhoumick0610@gmail.com">mrinalbhoumick0610@gmail.com</a></span>
+                <span>📱 +91-6290877836</span>
+                <span>🔗 <a href="https://www.linkedin.com/in/mrinal-bhoumick-17272a1a1/" target="_blank">linkedin.com/in/mrinal-bhoumick</a></span>
+                <span>💻 <a href="https://github.com/MrinalBhoumick" target="_blank">github.com/MrinalBhoumick</a></span>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="edu-item">
+                <div class="edu-header">
+                    <div class="edu-title">Techno India University</div>
+                    <div class="edu-date">2020 – 2024</div>
+                </div>
+                <div class="edu-subtitle">Bachelor of Technology in Computer Science and Business Systems | Kolkata, West Bengal</div>
+                <div class="edu-details">CGPA: 8.61 | Technical Courses: Data Structures, Algorithms, Operating Systems, DBMS, Machine Learning, AI, Computer Networks</div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-header">
+                    <div class="edu-title">K.E. CARMEL School</div>
+                    <div class="edu-date">2019 – 2020</div>
+                </div>
+                <div class="edu-subtitle">Higher Secondary (CISCE) | Kolkata, West Bengal</div>
+                <div class="edu-details">Percentage: 87% | Course Work: Physics, Chemistry, Mathematics, Computer Science</div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-title">Infrastructure as Code (IaC) Developer - Python Automation Specialist</div>
+                    <div class="exp-date">Dec 2023 - Present</div>
+                </div>
+                <div class="exp-company">Quickplay (Contracted via Workmates Core2Cloud) | Kolkata, India</div>
+                <ul class="exp-details">
+                    <li>Developed AWS infrastructure automation using Pulumi IaC and Python scripts, managing 100+ cloud resources across multiple environments</li>
+                    <li>Deployed AWS Network Firewall with custom egress traffic rules and integrated CloudWatch Dashboard monitoring all networking components including VPC, subnets, route tables, and security groups</li>
+                    <li>Built EKS cluster autoscaler infrastructure using Pulumi, optimizing pod scheduling and reducing cluster costs by 40% through dynamic scaling</li>
+                    <li>Implemented CDN automatic header rotation system using AWS Lambda and Step Functions with 30-minute wait states for CSI driver synchronization in EKS clusters</li>
+                    <li>Automated Python scripts for AWS resource provisioning, configuration management, and deployment workflows, reducing manual deployment time by 70%</li>
+                    <li>Created reusable Pulumi modules for networking, compute, and storage components, accelerating infrastructure deployment by 60%</li>
+                </ul>
+            </div>
+            
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-title">Associate DevOps Engineer</div>
+                    <div class="exp-date">Dec 2023 - Present</div>
+                </div>
+                <div class="exp-company">Workmates Core2Cloud | Kolkata, India</div>
+                <ul class="exp-details">
+                    <li>Built IntellIOps AI-powered automation platform processing 10,000+ daily tickets across 5,000+ VMs, achieving 70-90% autonomous resolution rate and reducing resolution time by 85%</li>
+                    <li>Managed multi-account AWS infrastructure with 200+ EC2 instances, 50+ Lambda functions, and 30+ DynamoDB tables, reducing operational costs by 60% through serverless architecture</li>
+                    <li>Automated infrastructure deployment using Terraform and CloudFormation, reducing provisioning time from 4 hours to 15 minutes and automating 95% of deployment tasks</li>
+                    <li>Designed event-driven application using Kafka Streams processing 50,000+ messages per hour with 99.9% uptime and response time under 100ms</li>
+                    <li>Developed real-time chat application supporting 1,000+ concurrent users using WebSocket, Socket.io, API Gateway, and DynamoDB with 99.95% message delivery rate</li>
+                    <li>Implemented monitoring system using CloudWatch tracking 100+ metrics, reducing incident detection time by 75% through automated alerts</li>
+                    <li>Created CI/CD pipelines with GitHub Actions enabling 50+ daily deployments with zero downtime</li>
+                </ul>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-title">Web Development Intern</div>
+                    <div class="exp-date">May 2023 - Jul 2023</div>
+                </div>
+                <div class="exp-company">Oasis Infobyte | Remote</div>
+                <ul class="exp-details">
+                    <li>Led team of 4 developers, coordinating daily meetings and sprint planning, delivering 3 production features ahead of schedule</li>
+                    <li>Built RESTful API backend handling 10,000+ requests per day with 99.8% uptime, reducing response time by 40%</li>
+                    <li>Designed MongoDB database architecture supporting 50,000+ records with optimized indexing, improving query performance by 65%</li>
+                    <li>Worked with frontend team to integrate React JS components, increasing page load speed by 35%</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2 class="section-title">Key Projects</h2>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">IntellIOps - AI-Powered Intelligent Operations Platform</div>
+                    <div class="project-date">2024</div>
+                </div>
+                <div class="project-tech">Technology Stack: Python 3.11, AWS Lambda, Amazon Bedrock (Claude), DynamoDB, API Gateway, EventBridge, CloudWatch, S3</div>
+                <ul class="project-details">
+                    <li>Built intelligent ticket classification system using AWS Bedrock Claude AI, supporting 15+ languages via AWS Comprehend/Translate with 92% accuracy</li>
+                    <li>Automated cross-account AWS resource management for 200+ resources including EC2, security groups, and IAM provisioning, reducing manual work by 80%</li>
+                    <li>Integrated AI-powered escalation system with SLA monitoring, routing 5,000+ tickets monthly through Microsoft Teams and Zoho Desk with 98% on-time resolution</li>
+                    <li>Developed ML-based similarity search using vector embeddings, analyzing 100,000+ historical tickets with 88% relevance accuracy</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">Movix - Movie Recommendation System</div>
+                    <div class="project-date">Nov 2022 - Dec 2022</div>
+                </div>
+                <div class="project-tech">Technology Stack: Python, HTML5, CSS3, React JS, Vite JS, MongoDB</div>
+                <ul class="project-details">
+                    <li>Built movie recommendation engine using K-Nearest Neighbours (KNN) algorithm, analyzing 10,000+ movies with 85% accuracy</li>
+                    <li>Implemented content-based and genre-based filtering supporting 20+ genres, increasing user engagement by 45%</li>
+                    <li>Optimized React JS frontend with Vite bundler, achieving 90+ Lighthouse performance score and 2-second load time</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">WebMediaSaver - Web Media Extraction Tool</div>
+                    <div class="project-date">Jun 2022 - Jul 2022</div>
+                </div>
+                <div class="project-tech">Technology Stack: Python, BeautifulSoup, HTML/CSS</div>
+                <ul class="project-details">
+                    <li>Developed automated media extraction tool processing 500+ web pages, extracting images and videos with 95% success rate</li>
+                    <li>Created organized storage system reducing manual extraction time by 90%</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-row">
+                <strong>Programming Languages:</strong> Python, Java, C++, JavaScript, SQL, HTML5, CSS3, Bash/Shell Scripting
+            </div>
+            <div class="skills-row">
+                <strong>Cloud Platforms:</strong> Amazon Web Services (AWS), AWS Lambda, EC2, S3, DynamoDB, RDS, API Gateway, EventBridge, CloudWatch, IAM, VPC, Route 53, EKS, Network Firewall, CDN
+            </div>
+            <div class="skills-row">
+                <strong>DevOps & IaC:</strong> Pulumi, Terraform, CloudFormation, Docker, Kubernetes (K8s), EKS, Jenkins, GitHub Actions, CI/CD Pipelines, Infrastructure as Code, Python Automation
+            </div>
+            <div class="skills-row">
+                <strong>AI/ML Technologies:</strong> AWS Bedrock, Amazon SageMaker, AWS Comprehend, AWS Translate, Machine Learning, Vector Embeddings, Natural Language Processing
+            </div>
+            <div class="skills-row">
+                <strong>Databases:</strong> DynamoDB, MongoDB, PostgreSQL, MySQL, Redis, Database Design, Query Optimization
+            </div>
+            <div class="skills-row">
+                <strong>Tools & Frameworks:</strong> Kafka, Apache Zookeeper, Nginx, WebSocket, Socket.io, React JS, Node.js, Express.js, REST APIs, Microservices, Step Functions
+            </div>
+            <div class="skills-row">
+                <strong>Networking & Security:</strong> VPC, Subnets, Route Tables, Security Groups, Network Firewall, Egress Traffic Control, AWS Network Architecture
+            </div>
+            <div class="skills-row">
+                <strong>Version Control & Collaboration:</strong> Git, GitHub, GitLab, Bitbucket, AWS CodeCommit, Agile/Scrum, JIRA, Confluence
+            </div>
+            <div class="skills-row">
+                <strong>Monitoring & Observability:</strong> CloudWatch, CloudWatch Dashboards, Prometheus, Grafana, AWS Systems Manager, IAM Policies, Secrets Manager
+            </div>
+        </div>
+
+        <!-- Certifications & Achievements -->
+        <div class="section">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <ul class="cert-list">
+                <li><strong>AWS Certified AI Practitioner</strong> (2024) - Credential ID: 17b69022-7323-4f12-87ff-d25f1f2f2568</li>
+                <li><strong>AWS Certified Developer - Associate</strong> (2024) - Credential ID: 46bc187f-a6f3-4023-9427-d054e9315abd</li>
+                <li><strong>AWS Certified Solutions Architect - Associate</strong> (2024) - Expertise in designing distributed systems on AWS</li>
+                <li><strong>HashiCorp Certified: Terraform Associate</strong> - Infrastructure automation and provisioning specialist</li>
+                <li><strong>ACM ICPC Regional Round Qualified</strong> (2023-24) - All India Rank 198 among 10,000+ participants</li>
+                <li><strong>Competitive Programming:</strong> Solved 200+ algorithmic problems on GeeksForGeeks with 5-star rating</li>
+                <li><strong>Leadership:</strong> Led team of 4 developers at Oasis Infobyte, delivering 3 projects with 100% on-time completion rate</li>
+            </ul>
+        </div>
+
+        <div class="download-btn">
+            <button onclick="window.print()">📄 Download as PDF</button>
+        </div>
+    </div>
+
+    <script>
+        // Clean print functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Professional resume loaded');
+        });
+    </script>
+</body>
+</html>
