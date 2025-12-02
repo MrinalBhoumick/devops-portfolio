@@ -1,6 +1,6 @@
 # Mrinal Bhoumick - DevOps Engineer Portfolio
 
-A powerful, modern portfolio website with stunning animations showcasing DevOps, cloud infrastructure, and AI engineering expertise.
+A powerful, modern portfolio website with stunning animations showcasing DevOps, cloud infrastructure, FastAPI development, Snowflake data engineering, and AI expertise.
 
 ## Features
 
@@ -100,6 +100,25 @@ Edit the CSS variables in `styles.css`:
 - Vanilla JavaScript
 - Font Awesome Icons
 
+## Key Skills Highlighted
+
+### Must-Have Skills
+- **Python Development**: 3-5 years of application development experience
+- **FastAPI**: 2+ years of REST API development
+- **AWS Cloud**: 2+ years with Lambda, API Gateway, S3, SQS, SNS
+- **SQL & Databases**: 2+ years of database experience
+- **Snowflake**: 1+ years of data warehouse experience
+- **Git & CI/CD**: Strong version control and pipeline knowledge
+
+### Preferred Skills
+- **AWS CDK (Python)**: 1+ years Infrastructure as Code
+- **AWS Certifications**: Solutions Architect, Developer, AI Practitioner
+- **Snowpark Python**: Data pipeline development
+- **Pytest**: Testing experience
+- **Pydantic v2 & dependency-injector**: Modern Python frameworks
+- **Event-Driven Architecture**: SQS, SNS, EventBridge experience
+- **Flask**: Maintaining Flask services
+
 ---
 
-Built with passion for Cloud & AI 🚀
+Built with passion for Cloud, APIs & Data 🚀
